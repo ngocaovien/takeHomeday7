@@ -198,5 +198,5 @@ myButton.addEventListener(
     p.textContent = doToday;
     body.appendChild(p);
 
-    document.querySelector('p').style.backgroundColor = "red";
+    document.querySelector('p').style.backgroundColor = color;
   });
