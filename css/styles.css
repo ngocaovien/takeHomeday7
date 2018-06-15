@@ -1,0 +1,26 @@
+.my-div{
+  background-color: orange;
+  height:400px;
+  width: 400px;
+  border: 1px solid;
+}
+
+#red_text {
+  color: #ff0000;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.blue-background {
+  background-color: blue;
+  height: 200px;
+  width: 300px;
+}
+
+ .green-background {
+   background-color: green;
+   height: 200px;
+   width: 300px;
+ }
