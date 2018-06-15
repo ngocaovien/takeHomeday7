@@ -170,7 +170,6 @@
 // }
 // }
 
-
 //day 7 takeHome
 let myButton = document.querySelector(".my-button");
 let body = document.querySelector("body");
@@ -198,5 +197,5 @@ myButton.addEventListener(
     p.textContent = doToday;
     body.appendChild(p);
 
-    document.querySelector('p').style.backgroundColor = color;
+    document.querySelector('p').style.backgroundColor = color; //changes the background of the p tag.
   });
