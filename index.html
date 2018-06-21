@@ -15,10 +15,15 @@
 </head>
 
 <body>
-
-    <button class="my-button">Click Me</button>
-
-
+<form method="POST" action="" name="login"> <!-- if no URL entered for action, it will assume a relative url-->
+    <p id="data_binding"></p>
+    <input type="text" name="email">
+    <input type="password" name="password">
+    <button name = "submitBtn" type="submit">Submit</button> <!--if only one button, html will automatically know it's a submit button.-->
+    <!-- type is added to the button tag to designate it as the submitting button.-->
+  </form>
+  <!--METHOD aka protocol verbs. how you talk to your server. we care about GET and POST.
+  you might not always get a return with POST, but with GET you will always get a response. -->
   <script src="js/scripts.js"></script>
 </body>
 
